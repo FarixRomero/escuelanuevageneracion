@@ -10,7 +10,10 @@
             <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
         <link href="main.css" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
         <title>Escuela de Arte Nueva Generación</title>
     </head>
 
@@ -28,7 +31,8 @@
             </div>
         </header>
         <!--services-->
-        <section class="services">
+        <section  data-aos="fade-up"
+       data-aos-anchor-placement="center-bottom" class="services" >
             <div class="conteiner grid-4 center">
                 <div>
                     <img
@@ -54,7 +58,7 @@
                         neque porro labore pariatur sunt at!</p>
                 </div>
                 <div>
-                    <i class="fas fa-music fa-3x"></i>
+                    <img src="images/concierto.png" class="bailedance">
                     <h3>Canto</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                         Ratione, architecto. Consequuntur ratione animi dolor
@@ -63,7 +67,8 @@
             </div>
         </section>
         <!---About-->
-        <section class="about bg-light">
+        <section class="about bg-light"  data-aos="fade-up"
+       data-aos-anchor-placement="center-bottom">
             <div class="conteiner">
                 <div class="grid-2">
                     <div class="center">
@@ -81,7 +86,8 @@
             </div>
         </section>
         <!--PREMIOS-->
-        <section class="about">
+        <section  data-aos="fade-up"
+       data-aos-anchor-placement="center-bottom" class="about">
             <div class="conteiner">
                 <h2 class="tsection">Nuestros premios</h2>
                 <div class="conteiner grid-3 center">
@@ -101,7 +107,8 @@
 
         </section>
         <!--NUESTROS PROFESORES-->
-        <section class="about gris">
+        <section  data-aos="fade-up"
+       data-aos-anchor-placement="center-bottom" class="about gris">
             <div class="conteiner">
                 <h2 class="tsection">Nuestros profesores</h2>
                 <div class="conteiner grid-2 center">
@@ -129,10 +136,11 @@
 
         </section>
         <!--HORARIO-->
-        <section class="about bg-light">
-            <div class="conteiner">
+        <section  data-aos="fade-up"
+       data-aos-anchor-placement="center-bottom" class="about bg-light">
+            <div class="conteiner conteinerPad">
                 <h2 class="tsection">Nuestros HORARIOS</h2>
-                <div class="conteiner center">
+                <div class="conteiner center conteinerPad ">
                     <!-- <div>
                         <img class="tiago" src="images/horario1.jpg" alt="">
                         
@@ -153,7 +161,8 @@
         </section>
 
         <!--CONTACTANOS-->
-        <section class="blue">
+        <section   data-aos="fade-up"
+       data-aos-anchor-placement="center-bottom" class="blue">
             <div class="conteiner">
                 <h2 class="tsection">Contactanos</h2>
                 <div class="contactanos conteiner grid-3 center">
@@ -253,5 +262,8 @@
 
 
     </body>
+    <script>
+        AOS.init();
+      </script>
 
 </html>
