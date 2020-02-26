@@ -74,6 +74,13 @@
         text-align: center;
         transition: all 1000ms;
     }
+    .carousel-item{
+        height: 700px;
+
+    }
+    .foto123{
+        height: 500px;
+    }
     .content .logo{
         height: 180px;
         width: 180px;
