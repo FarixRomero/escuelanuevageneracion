@@ -322,15 +322,35 @@
         
         .container-body{
             flex-wrap: wrap;
+            align-content: space-between;
+            width: 100%
+
         }
+        .row{   
+            width: 100%; 
+            display: flex;
+            justify-content: center}
+        .row2{   
+            width: 100%; 
+            display: flex;
+            justify-content: center}
         
         .colum1{
             max-width: 100%;
+            text-align: center
         }
         
         .colum2,
         .colum3{
+            width: 100%;
+            text-align: center;
             margin-top: 40px;
+        }
+        .container-footer-all{
+            width: 100%;
+            max-width: 1200px;
+            margin: 0;
+            padding: 0;
         }
     }
     
